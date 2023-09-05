@@ -34,7 +34,10 @@ export class ProjectpageComponent implements OnInit {
       this.projectData = this.service.salon;
     }
     else if(this.getProjectId == 3){
-      this.projectData = this.service.homeInterior;
+      this.projectData = this.service.hospital;
+    }
+    else if(this.getProjectId == 4){
+      this.projectData = this.service.washroom;
     }
    
 
