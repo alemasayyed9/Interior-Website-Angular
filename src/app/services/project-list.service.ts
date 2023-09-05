@@ -62,18 +62,28 @@ export class ProjectListService {
     {
       id: 1,
       imgName: 'Home 1',
-      img: './assets/img/home-1.jpg',
+      img: './assets/img/home-main.jpg',
     },
     {
       id: 2,
       imgName: 'Home 2',
-      img: './assets/img/home-2.jpg',
+      img: './assets/img/home-1.jpg',
     },
     {
       id: 3,
       imgName: 'Home 3',
+      img: './assets/img/home-2.jpg',
+    },
+    {
+      id: 4,
+      imgName: 'Home 4',
       img: './assets/img/home-3.jpg',
     },
+    {
+      id: 5,
+      imgName: 'Home 5',
+      img: './assets/img/home-4.jpg',
+    }
   ];
 
   // Home Interior Array Object
@@ -114,18 +124,28 @@ export class ProjectListService {
   hospital = [
     {
       id: 1,
-      imgName: 'hospital 1',
-      img: './assets/img/home-main.jpg',
+      imgName: 'Clinic 1',
+      img: './assets/img/clinic-1.jpg',
     },
     {
       id: 2,
-      imgName: 'hospital 2',
-      img: './assets/img/salon-main.jpg',
+      imgName: 'Clinic 2',
+      img: './assets/img/clinic-2.jpg',
     },
     {
       id: 3,
-      imgName: 'hospital 3',
-      img: './assets/img/hospital-main.jpg',
+      imgName: 'Clinic 3',
+      img: './assets/img/clinic-3.jpg',
+    },
+    {
+      id: 4,
+      imgName: 'Clinic 4',
+      img: './assets/img/clinic-4.jpg',
+    },
+    {
+      id: 5,
+      imgName: 'Clinic 5',
+      img: './assets/img/clinic-5.jpg',
     },
   ];
 
@@ -133,18 +153,33 @@ export class ProjectListService {
     {
       id: 1,
       imgName: 'washroom 1',
-      img: './assets/img/home-main.jpg',
+      img: './assets/img/washroom-main.jpg',
     },
     {
       id: 2,
       imgName: 'washroom 2',
-      img: './assets/img/salon-main.jpg',
+      img: './assets/img/washroom-1.jpg',
     },
     {
       id: 3,
       imgName: 'washroom 3',
-      img: './assets/img/hospital-main.jpg',
+      img: './assets/img/washroom-2.jpg',
     },
+    {
+      id: 4,
+      imgName: 'washroom 4',
+      img: './assets/img/washroom-3.jpg',
+    },
+    {
+      id: 5,
+      imgName: 'washroom 5',
+      img: './assets/img/washroom-main.jpg',
+    },
+    {
+      id: 6,
+      imgName: 'washroom 6',
+      img: './assets/img/washroom-1.jpg',
+    }
   ];
 
   kitchen = [
