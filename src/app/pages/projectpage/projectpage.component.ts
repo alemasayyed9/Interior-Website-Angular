@@ -34,12 +34,11 @@ export class ProjectpageComponent implements OnInit {
       this.projectData = this.service.salon;
     }
     else if(this.getProjectId == 3){
-      this.projectData = this.service.hospital;
-    }
-    else if(this.getProjectId == 4){
       this.projectData = this.service.washroom;
     }
-   
+    else if(this.getProjectId == 6){
+      this.projectData = this.service.hospital;
+    }
 
   // Individual Page Designs   
     // switch (this.getProjectId) {

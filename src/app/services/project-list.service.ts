@@ -38,22 +38,7 @@ export class ProjectListService {
       id: 6,
       imgName: 'Hospital and Clinic Interior',
       img: './assets/img/hospital-main.jpg',
-    },
-    // {
-    //   id: 7,
-    //   imgName: 'Wardrobe Designs',
-    //   img: './assets/img/kitchen-main.jpg',
-    // },
-    // {
-    //   id: 8,
-    //   imgName: 'Wardrobe Designs',
-    //   img: './assets/img/kitchen-main.jpg',
-    // },
-    // {
-    //   id: 9,
-    //   imgName: 'Wardrobe Designs',
-    //   img: './assets/img/kitchen-main.jpg',
-    // },
+    }
   ];
 
   // Home Interior Array Object
@@ -91,7 +76,7 @@ export class ProjectListService {
     }
   ];
 
-  // Home Interior Array Object
+  // Salon and Spa Array Object
 
   salon = [
     {
@@ -126,6 +111,9 @@ export class ProjectListService {
     },
   ];
 
+
+   // Hospital and Clinic Array Object
+
   hospital = [
     {
       id: 1,
@@ -152,7 +140,14 @@ export class ProjectListService {
       imgName: 'Clinic 5',
       img: './assets/img/clinic-5.jpg',
     },
+    {
+      id: 6,
+      imgName: 'Clinic 6',
+      img: './assets/img/clinic-2.jpg',
+    },
   ];
+
+   // Washroom Array Object
 
   washroom = [
     {

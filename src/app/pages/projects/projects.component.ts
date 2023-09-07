@@ -31,16 +31,12 @@ export class ProjectsComponent implements OnInit{
     );
 
 
-    if(this.router.url === '/projects')
-    {
     navtitle.forEach(nav => {
       nav.style.fontSize = '25px';
       nav.style.color ='black';
     });
-  }
 
-    if(this.router.url === '/projects')
-    {
+  
     navId.forEach(nav => {
       // nav.style.backgroundImage = 'linear-gradient(to left, grey , white)';
       nav.style.background = "#fff"
@@ -48,7 +44,7 @@ export class ProjectsComponent implements OnInit{
       nav.style.position = 'sticky';
       nav.style.boxShadow="5px 2px 5px grey";
     });
-  }
+  
 
   if(this.router.url === '/projects')
     {
