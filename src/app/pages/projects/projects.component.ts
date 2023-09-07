@@ -26,6 +26,11 @@ export class ProjectsComponent implements OnInit{
       document.getElementsByClassName('navbar-brand') as HTMLCollectionOf<HTMLElement>,
     );
 
+    const navlink = Array.from(
+      document.getElementsByClassName('nav-link') as HTMLCollectionOf<HTMLElement>,
+    );
+
+
     if(this.router.url === '/projects')
     {
     navtitle.forEach(nav => {
@@ -37,13 +42,20 @@ export class ProjectsComponent implements OnInit{
     if(this.router.url === '/projects')
     {
     navId.forEach(nav => {
-      nav.style.backgroundImage = 'linear-gradient(to left, black , white)';
-      nav.style.padding = '5px';
+      // nav.style.backgroundImage = 'linear-gradient(to left, grey , white)';
+      nav.style.background = "#fff"
+      nav.style.padding = '2px';
       nav.style.position = 'sticky';
+      nav.style.boxShadow="5px 2px 5px grey";
+    });
+  }
+
+  if(this.router.url === '/projects')
+    {
+    navlink.forEach(nav => {
+      nav.style.color="black";
     });
   }
   }
-
-
 
 }

@@ -21,39 +21,39 @@ export class ProjectListService {
     },
     {
       id: 3,
-      imgName: 'Hospital and Clinic Interior',
-      img: './assets/img/hospital-main.jpg',
-    },
-    {
-      id: 4,
       imgName: 'Washroom Designs',
       img: './assets/img/washroom-main.jpg',
     },
     {
-      id: 5,
+      id: 4,
       imgName: 'Fancy Kitchen Designs',
       img: './assets/img/kitchen-main.jpg',
     },
     {
+      id: 5,
+      imgName: 'Wardrobe Designs',
+      img: './assets/img/home-4.jpg',
+    },
+    {
       id: 6,
-      imgName: 'Wardrobe Designs',
-      img: './assets/img/kitchen-main.jpg',
+      imgName: 'Hospital and Clinic Interior',
+      img: './assets/img/hospital-main.jpg',
     },
-    {
-      id: 7,
-      imgName: 'Wardrobe Designs',
-      img: './assets/img/kitchen-main.jpg',
-    },
-    {
-      id: 8,
-      imgName: 'Wardrobe Designs',
-      img: './assets/img/kitchen-main.jpg',
-    },
-    {
-      id: 9,
-      imgName: 'Wardrobe Designs',
-      img: './assets/img/kitchen-main.jpg',
-    },
+    // {
+    //   id: 7,
+    //   imgName: 'Wardrobe Designs',
+    //   img: './assets/img/kitchen-main.jpg',
+    // },
+    // {
+    //   id: 8,
+    //   imgName: 'Wardrobe Designs',
+    //   img: './assets/img/kitchen-main.jpg',
+    // },
+    // {
+    //   id: 9,
+    //   imgName: 'Wardrobe Designs',
+    //   img: './assets/img/kitchen-main.jpg',
+    // },
   ];
 
   // Home Interior Array Object
@@ -83,6 +83,11 @@ export class ProjectListService {
       id: 5,
       imgName: 'Home 5',
       img: './assets/img/home-4.jpg',
+    },
+    {
+      id: 6,
+      imgName: 'Home 6',
+      img: './assets/img/home-1.jpg',
     }
   ];
 
