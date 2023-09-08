@@ -1,4 +1,5 @@
-import { AfterViewInit, Component } from '@angular/core';
+import { AfterViewInit, Component, OnInit } from '@angular/core';
+import { NavigationStart, Router } from '@angular/router';
 import {register} from 'swiper/element/bundle';
 
 @Component({
@@ -6,10 +7,25 @@ import {register} from 'swiper/element/bundle';
   templateUrl: './app.component.html',
   styleUrls: ['./app.component.css']
 })
-export class AppComponent {
+export class AppComponent implements OnInit{
   title = 'interiorDesigWebsite';
+  showNavbar: any;
 
-  constructor(){
+  constructor(router: Router){
       register();
+
+    // already imported navbar in home component and should 
+    // not be overlaped in it that why used if statement  
+
+      router.events.forEach((event) => {
+        if(event instanceof NavigationStart) {
+            this.showNavbar = event.url !== "/";
+        }
+      });
   }
+
+  ngOnInit(): void {
+  }
+
+
 }

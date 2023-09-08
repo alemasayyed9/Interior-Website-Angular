@@ -34,12 +34,11 @@ export class ProjectpageComponent implements OnInit {
       this.projectData = this.service.salon;
     }
     else if(this.getProjectId == 3){
-      this.projectData = this.service.hospital;
-    }
-    else if(this.getProjectId == 4){
       this.projectData = this.service.washroom;
     }
-   
+    else if(this.getProjectId == 6){
+      this.projectData = this.service.hospital;
+    }
 
   // Individual Page Designs   
     // switch (this.getProjectId) {
@@ -68,27 +67,34 @@ export class ProjectpageComponent implements OnInit {
 
     // Navbar css
     const navId = Array.from(
-      document.getElementsByClassName(
-        'navbar navbar-expand-lg'
-      ) as HTMLCollectionOf<HTMLElement>
+      document.getElementsByClassName('navbar navbar-expand-lg') as HTMLCollectionOf<HTMLElement>,
     );
 
     const navtitle = Array.from(
-      document.getElementsByClassName(
-        'navbar-brand'
-      ) as HTMLCollectionOf<HTMLElement>
+      document.getElementsByClassName('navbar-brand') as HTMLCollectionOf<HTMLElement>,
     );
-    console.log('+++++++++' + this.router.url + '++++++++++');
 
-    navtitle.forEach((nav) => {
+    const navlink = Array.from(
+      document.getElementsByClassName('nav-link') as HTMLCollectionOf<HTMLElement>,
+    );
+
+    navtitle.forEach(nav => {
       nav.style.fontSize = '25px';
-      nav.style.color = 'black';
+      nav.style.color ='black';
     });
 
-    navId.forEach((nav) => {
-      nav.style.backgroundImage = 'linear-gradient(to left, black , white)';
-      nav.style.padding = '5px';
-      nav.style.position = 'sticky';
+    navId.forEach(nav => {
+      // nav.style.backgroundImage = 'linear-gradient(to left, grey , white)';
+      nav.style.background = "#fff"
+      nav.style.padding = '2px';
+      nav.style.position = 'fixed';
+      nav.style.boxShadow="5px 2px 5px grey";
     });
+
+    navlink.forEach(nav => {
+      nav.style.color="black";
+    });
+
   }
+  
 }

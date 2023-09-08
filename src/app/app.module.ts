@@ -12,6 +12,8 @@ import {register} from 'swiper/element/bundle';
 import { CUSTOM_ELEMENTS_SCHEMA,} from '@angular/core';
 import { ProjectsComponent } from './pages/projects/projects.component';
 import { ProjectpageComponent } from './pages/projectpage/projectpage.component';
+import { NgxPageScrollModule } from 'ngx-page-scroll';
+import { ReactiveFormsModule } from '@angular/forms';
 
 @NgModule({
   declarations: [
@@ -29,7 +31,9 @@ import { ProjectpageComponent } from './pages/projectpage/projectpage.component'
 
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    NgxPageScrollModule,
+    ReactiveFormsModule,
   ],
   providers: [],
   bootstrap: [AppComponent]

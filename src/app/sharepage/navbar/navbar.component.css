@@ -21,6 +21,7 @@
     font-weight: bold;
     border-radius: 15px;
     margin-right: 10px;
+    cursor: pointer;
 }
 
 .navbar-nav .nav-link.active-link{

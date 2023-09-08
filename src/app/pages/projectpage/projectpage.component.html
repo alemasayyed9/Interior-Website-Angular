@@ -1,10 +1,11 @@
 <div class="container">
 
     <div class="row">
-        <h1 class="mt-3 mb-4">{{galleryData[0].imgName}}</h1>
+        <h1 class="mb-4">{{galleryData[0].imgName}}</h1>
         <div class="col-lg-4 projList" *ngFor= "let pd of projectData; index as i">
-            <img src="{{pd.img}}" width="100%"/>
-            <p>{{pd.imgName}}</p>
+        <a href="{{pd.img}}" class="fancybox" data-fancybox="gallery"> 
+            <img src="{{pd.img}}" width="100%"/>    
+        </a>
         </div>
     </div>
 </div>
