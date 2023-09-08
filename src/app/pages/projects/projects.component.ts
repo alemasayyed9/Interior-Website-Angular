@@ -46,6 +46,7 @@ export class ProjectsComponent implements OnInit{
     });
   
 
+  // if statement is not necessary here, kept it just for understanding puropose
   if(this.router.url === '/projects')
     {
     navlink.forEach(nav => {

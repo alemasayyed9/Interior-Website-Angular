@@ -17,7 +17,6 @@
   <!-- Swiper Widget  -->
 
   <section>
-    <a routerLink="/projects">
     <swiper-container
       class="mySwiper"
       loop="true"
@@ -33,6 +32,7 @@
       coverflow-effect-slide-shadows="true"
       autoplay-delay="2500"
       autoplay-disable-on-interaction="false"
+      routerLink="/projects"
     >
       <swiper-slide *ngFor="let gd of galleryData; index as i">
         <div class="overlay-one">
@@ -42,7 +42,6 @@
         </div>
       </swiper-slide>
     </swiper-container>
-  </a>
   </section>
 
   <div class="box row">
@@ -58,7 +57,7 @@
     <div class="col-lg-4 mt-5">
       <div class="shadowBox">
         <img src="assets/img/challenge.png">
-        <p>Challenging Projects</p>
+        <p>Handle Challenging Projects</p>
       </div>
     </div>
     <!-- Three -->
@@ -70,45 +69,3 @@
     </div>
   </div>
 </div>
-
-<!-- <swiper-slide>
-      <img src=" https://swiperjs.com/demos/images/nature-1.jpg">
-      <div class="overlay-one">
-        <h1>Image 1</h1>
-        <span>domestic</span>
-        <div>
-            <h2>Enjoy the exotic of sunny Hawaii</h2>
-            <p>
-                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
-                    <path stroke-linecap="round" stroke-linejoin="round" d="M15 10.5a3 3 0 11-6 0 3 3 0 016 0z" />
-                    <path stroke-linecap="round" stroke-linejoin="round" d="M19.5 10.5c0 7.142-7.5 11.25-7.5 11.25S4.5 17.642 4.5 10.5a7.5 7.5 0 1115 0z" />
-                </svg>
-                Maui, Hawaii
-            </p>
-        </div>
-      </div>
-    </swiper-slide>
-    <swiper-slide>
-      <img src="https://swiperjs.com/demos/images/nature-2.jpg" />
-    </swiper-slide>
-    <swiper-slide>
-      <img src="https://swiperjs.com/demos/images/nature-3.jpg" />
-    </swiper-slide>
-    <swiper-slide>
-      <img src="https://swiperjs.com/demos/images/nature-4.jpg" />
-    </swiper-slide>
-    <swiper-slide>
-      <img src="https://swiperjs.com/demos/images/nature-5.jpg" />
-    </swiper-slide>
-    <swiper-slide>
-      <img src="https://swiperjs.com/demos/images/nature-6.jpg" />
-    </swiper-slide>
-    <swiper-slide>
-      <img src="https://swiperjs.com/demos/images/nature-7.jpg" />
-    </swiper-slide>
-    <swiper-slide>
-      <img src="https://swiperjs.com/demos/images/nature-8.jpg" />
-    </swiper-slide>
-    <swiper-slide>
-      <img src="https://swiperjs.com/demos/images/nature-9.jpg" />
-    </swiper-slide> -->
