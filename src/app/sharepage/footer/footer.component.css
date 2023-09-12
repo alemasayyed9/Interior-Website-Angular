@@ -64,3 +64,16 @@ input, textarea{
 .bi-telephone{
     font-size: 25px;
 }
+
+
+
+/* CSS FOR MOBILE PHONES */
+
+@media screen and (max-width: 1200px) {
+
+    .contact-card{
+        display: flex;
+        justify-content: space-around;
+    }
+
+}

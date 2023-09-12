@@ -129,6 +129,34 @@ swiper-container {
 }
 
 
+/* CSS FOR MOBILE PHONES  HOME*/
+
+@media screen and (max-width: 1200px) {
+  .banner{
+    height: 60vh;
+}
+
+.overlay{
+    height: 60vh;
+    background: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7));
+}
+
+.content h1{
+    font-size: 35px;
+}
+
+.content h3{
+    font-size: 15px;
+    background: none;
+ }
+
+ section {
+  min-height: 55vh;
+}
+
+}
+
+
 
 
 
