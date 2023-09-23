@@ -40,8 +40,8 @@ export class ProjectsComponent implements OnInit{
     navId.forEach(nav => {
       // nav.style.backgroundImage = 'linear-gradient(to left, grey , white)';
       nav.style.background = "#fff"
-      nav.style.padding = '2px';
-      nav.style.position = 'sticky';
+      nav.style.padding = '4px';
+      nav.style.position = 'fixed';
       nav.style.boxShadow="5px 2px 5px grey";
     });
   

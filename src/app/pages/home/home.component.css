@@ -133,11 +133,11 @@ swiper-container {
 
 @media screen and (max-width: 1200px) {
   .banner{
-    height: 60vh;
+    height: 80vh;
 }
 
 .overlay{
-    height: 60vh;
+    height: 80vh;
     background: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7));
 }
 
@@ -152,6 +152,10 @@ swiper-container {
 
  section {
   min-height: 55vh;
+}
+
+.container h1{
+font-size: 30px;
 }
 
 }
