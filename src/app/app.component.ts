@@ -15,7 +15,7 @@ export class AppComponent implements OnInit{
       register();
 
     // already imported navbar in home component and should 
-    // not be overlaped in it that why used if statement  
+    // not be overlaped in it thats why used if statement  
 
       router.events.forEach((event) => {
         if(event instanceof NavigationStart) {
