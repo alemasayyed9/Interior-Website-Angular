@@ -14,6 +14,7 @@ import { ProjectsComponent } from './pages/projects/projects.component';
 import { ProjectpageComponent } from './pages/projectpage/projectpage.component';
 import { NgxPageScrollModule } from 'ngx-page-scroll';
 import { ReactiveFormsModule } from '@angular/forms';
+import { NgbCollapseModule } from '@ng-bootstrap/ng-bootstrap';
 
 @NgModule({
   declarations: [
@@ -34,6 +35,7 @@ import { ReactiveFormsModule } from '@angular/forms';
     AppRoutingModule,
     NgxPageScrollModule,
     ReactiveFormsModule,
+    NgbCollapseModule
   ],
   providers: [],
   bootstrap: [AppComponent]
